@@ -1,3 +1,8 @@
+### Original photo
+<p align="center">
+  <img src = "img/or.png" height = "350">
+</p>
+
 1. **Function: `recreate_image(centroids, labels, w, h)`**
    - This function takes four arguments:
      - `centroids`: The centroids of the clusters obtained from K-means clustering. These centroids represent the colors that will be used to recreate the compressed image.
@@ -24,15 +29,66 @@
    - LAB is a color space that separates color information into three channels: L (lightness), A (green to red), and B (blue to yellow).
    - The function applies K-means clustering to the LAB image and compresses it for each cluster count.
    - The code displays the original LAB image and the compressed images for different cluster numbers.
+  
+   <p align="center">
+     <img src = "img/lab.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/2lab.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/11lab.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/41lab.png" height = "350">
+   </p>
+
+
 
    **HSV Color Space:**
    - HSV is a color space that separates color information into three channels: H (hue), S (saturation), and V (value/brightness).
    - The function applies K-means clustering to the HSV image and compresses it for each cluster count.
    - The code displays the original HSV image and the compressed images for different cluster numbers.
+  
+   <p align="center">
+     <img src = "img/hsv.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/2hsv.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/11hsv.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/41hsv.png" height = "350">
+   </p>
+
 
    **XYZ Color Space:**
    - XYZ is a color space based on human perception and used in various applications, including image processing.
    - The function applies K-means clustering to the XYZ image and compresses it for each cluster count.
    - The code displays the original XYZ image and the compressed images for different cluster numbers.
+  
+   <p align="center">
+     <img src = "img/xyz.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/2xyz.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/11xyz.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/41xyz.png" height = "350">
+   </p>
 
 In summary, the code showcases how the K-means clustering algorithm can be used to compress an image in various color spaces (LAB, HSV, and XYZ). The output images demonstrate the effects of different cluster counts on the quality and level of compression achieved for each color space. This allows visual comparison and understanding of how each color space and cluster count influence the compressed image's appearance and quality.
