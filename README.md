@@ -24,6 +24,22 @@
 3. **Output Images Explanation (for different color spaces and cluster numbers):**
    - The code processes the original image in three different color spaces: LAB, HSV, and XYZ.
    - It applies the K-means clustering algorithm to each color space and compresses the image using different numbers of clusters (2, 4, 11, 21, 31, 41) to demonstrate the effect of varying the cluster count on image compression.
+  
+   **RGB Color Space:**
+
+   
+   <p align="center">
+     <img src = "img/2.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/11.png" height = "350">
+   </p>
+   
+   <p align="center">
+     <img src = "img/41.png" height = "350">
+   </p>
+   
 
    **LAB Color Space:**
    - LAB is a color space that separates color information into three channels: L (lightness), A (green to red), and B (blue to yellow).
